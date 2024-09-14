@@ -14,7 +14,7 @@ Study under which conditions the system guarantees that the following Quality of
 
 ```
 !apt-get update
-### Install Java 17 JDK
+#Install Java 17 JDK
 !apt-get install openjdk-17-jdk
 
 !git clone https://github.com/quasylab/sibilla
