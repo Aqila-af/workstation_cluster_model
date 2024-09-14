@@ -11,7 +11,7 @@ Study under which conditions the system guarantees that the following Quality of
 **premium QoS**: at least N workstations are operational and connected via switches and backbone.
 
 ## Running the model
-‘‘‘
+‘
 !apt-get update
 ### Install Java 17 JDK
 !apt-get install openjdk-17-jdk
@@ -25,7 +25,6 @@ Study under which conditions the system guarantees that the following Quality of
 import os
 os.environ["SSHELL_PATH"]="/content/sibilla/shell/build/install/sshell/"
 import sibilla
-
-‘‘‘
+‘
 After you have installed Sibilla, you can write the code in Sibilla syntax.
 This project is built using [Sibilla](https://github.com/quasylab/sibilla)
