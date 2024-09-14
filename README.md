@@ -28,5 +28,4 @@ os.environ["SSHELL_PATH"]="/content/sibilla/shell/build/install/sshell/"
 import sibilla
 
 ```
-After you have installed Sibilla, you can write the code in Sibilla syntax.
-This project is built using [Sibilla](https://github.com/quasylab/sibilla)
+After you have installed [Sibilla](https://github.com/quasylab/sibilla), you can write the code in Sibilla syntax and use Google Colab for the frontend.
