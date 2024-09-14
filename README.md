@@ -13,21 +13,19 @@ Study under which conditions the system guarantees that the following Quality of
 ## Running the model
 ‘‘‘
 !apt-get update
-# Install Java 17 JDK
+### Install Java 17 JDK
 !apt-get install openjdk-17-jdk
-‘‘‘
-‘‘‘
+
 !git clone https://github.com/quasylab/sibilla
-‘‘‘
-‘‘‘
+
 !cd sibilla && ./gradlew build -x test && ./gradlew installDist
 !cp -a sibilla/shell/src/dist/scripts/sibilla_py .
 !cd sibilla_py && pip install .
-‘‘‘
-‘‘‘
+
 import os
 os.environ["SSHELL_PATH"]="/content/sibilla/shell/build/install/sshell/"
 import sibilla
+
 ‘‘‘
 After you have installed Sibilla, you can write the code in Sibilla syntax.
 This project is built using [Sibilla](https://github.com/quasylab/sibilla)
