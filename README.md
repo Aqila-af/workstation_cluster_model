@@ -1,7 +1,12 @@
-# ACP-Model
-Analysis of Customer Acquisition and Churn Dynamics in the Subscription-Based Service using Sibilla.
+# Workstation Cluster
 
-This model consists of customers who can be in one of three states: active customers (A) or churned customers © and potential customers (P).
-Potential customers represent individuals who have not yet subscribed to the service but have the possibility of becoming active customers.
-The states represent whether customers are actively using the subscription service or have decided to discontinue their subscription.
+This case study is based on a cluster of workstations.
+
+The system comprises two sub-clusters with N workstations connected in a star topology. The switches connecting each sub-cluster are joined by a central backbone. All components can break down and there is a single repair unit to service all components.
+
+Study under which conditions the system guarantees that the following Quality of Service (QoS) levels are guaranteed:
+
+**minimum QoS**: at least 3N/4 workstations are operational and connected via switches and backbone;
+
+**premium QoS**: at least N workstations are operational and connected via switches and backbone.
 
